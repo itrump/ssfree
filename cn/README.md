@@ -10,6 +10,7 @@
 - mac os
 - windows 7/8/10
 - android
+- [ss obfs教程索引](./ss_obfs_教程索引.md)
 - [iphone/ipad](./ios_usage.md)
 - [倚天剑shadow新网站](./倚天剑ss新网站.md)
 - [免费ss账号](./免费ss账号.md)
