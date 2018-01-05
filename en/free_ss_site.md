@@ -10,7 +10,7 @@ These accounts are just for tests! If it does not work, please refer to the abov
 ### Singapore
 
 server ip | server port | encrypt method | pasword | qrcode
-----------|----------|----------|----------
+----------|----------|----------|----------|----------
 45.55.2.232 | 14295 | aes-256-cfb| de7558 | <img src="https://raw.githubusercontent.com/jasonxia23/ssfree/master/files/qrcode/45.55.2.232-14295.png">
 45.55.2.232 | 14294 | aes-256-cfb| 4d79fb | <img src="https://raw.githubusercontent.com/jasonxia23/ssfree/master/files/qrcode/45.55.2.232-14294.png">
 45.55.2.232 | 14293 | aes-256-cfb| 2170f8 | <img src="https://raw.githubusercontent.com/jasonxia23/ssfree/master/files/qrcode/45.55.2.232-14293.png">
