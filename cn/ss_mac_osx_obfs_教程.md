@@ -36,12 +36,12 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
   - **右键点击**下载链接：[mac obfs client下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/obfs-local)
     - 在弹出的菜单中选择『文件另存为...』/ 'Save File as...'，弹出保存文件界面，
       - <img src="../files/img/obfs/mac/mac.download.obfs.png"  width="250" alt="mac obfs download" />
-    - 再按'command + shift + g'，弹出一个新的输入目录的对话框，输入'~'，即在输入法为英文时按'shift + *`*'，shift + 数字1左边的键。
+    - 再按'command + shift + g'，弹出一个新的输入目录的对话框，输入'~'，即在输入法为英文时按'shift + *`*'，亦即shift + 数字1左边的键。
       - <img src="../files/img/obfs/mac/mac.download.obfs.change.dir.png"  width="250" alt="mac download change dir" />
     - 确认下载保存。
   - 说明：以上右键点击另存为目的是为了避免部分小白用户下载后找不到文件路径。
 
-- 命令行配置连接ss 和obfs（每个命令按Enter前，再次确认是不是准确无误！）
+- 启动obfs程序（每个命令按Enter前，请再次确认是不是准确无误！）
   - 打开mac命令行（小白听到命令行也别怕，这玩意隔壁老王家5岁小孩教了一遍也会玩了）
     - 按F4，跳出mac面板，找到『其他』图标
       - <img src="../files/img/obfs/mac/mac.f4.others.png"  width="250" alt="mac f4 others" />
@@ -51,28 +51,34 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
       - ```cd```
         - 执行结果：无输出
         - <img src="../files/img/obfs/mac/mac.term.cd.png"  width="250" alt="mac terminal cd" />
+      - ```chmod +x ./obfs-local```
+        - 执行结果：无输出
       - ```./obfs-local```
         - 执行结果：输出obfs工具帮助信息
         - <img src="../files/img/obfs/mac/mac.term.obfs.png"  width="250" alt="mac obfs message" />
     - 如果上面的命令行出错，或命令没反应，请回到上一步检查之前obfs客户端下载是否有误
     - 启动obfs程序，将ss流量重定向到obfs
       - 复制下面的命令行模板
-      - ```obfs-local -s SERVER_HOST -b 127.0.0.1 -p SERVER_PORT -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
+      - ```./obfs-local -s SERVER_HOST -b 127.0.0.1 -p SERVER_PORT -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
       - 上面这条命令有点长，而且有两处```SERVER_HOST``` 和```SERVER_PORT```需要替换。先复制下来，粘贴到命令行，**先不用敲回车执行**。
       - 找到上面步骤中ss客户端已经扫码的服务器配置，获取```SERVER_HOST``` 和```SERVER_PORT```，
         - 右键打开ss客户端菜单->'服务器配置...'/ 'Server Preferences...' -> 服务器配置信息如截图
         - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
         - 将```SERVER_HOST```替换为图中 1 的服务器地址，```SERVER_PORT```替换为图中 2 的端口
           - 例如图中服务器地址为 abc.def.com 端口为 10088，则替换后的最终命令为：
-          - ```obfs-local -s abc.def.com -b 127.0.0.1 -p 10088 -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
+          - ```./obfs-local -s abc.def.com -b 127.0.0.1 -p 10088 -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
         - 确认替换无误后，按下 '回车 / Enter' 执行，正常情况下不会输出任何信息。
      - 确认 obfs 程序已启动
         - 运行命令确认
           - ``` ps -ef | grep obfs-local  | grep -v grep```
           - 输出内容包含上面替换后的那串命令字串，则表示启动成功！
           - <img src="../files/img/obfs/mac/mac.ss.obfs.ps.ef.png"  width="250" alt="mac ss obfs" />
-- 启动ss客户端
-  - 至此已经将ss客户端流量转发到obfs，连通了ss + obfs，需要启动ss客户端即可畅游外网了
+- 重定向ss流量，并启动ss客户端
+  - 右键打开ss客户端菜单->'服务器配置...'/ 'Server Preferences...' -> 服务器配置信息如截图
+    - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
+    - 修改服务器地址为```127.0.0.1```
+    - <img src="../files/img/obfs/mac/mac.ss.host.local.png"  width="250" alt="mac ss host port" />
+  - 至此已经将ss客户端流量转发到obfs，连通了ss + obfs，启动ss客户端即可畅游外网了
   - 右键打开ss客户端菜单，启动ss客户端
     - <img src="../files/img/obfs/mac/mac.ss.turn.on.png"  width="250" alt="mac turn on ss" />
 
@@ -81,11 +87,11 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
 
 - 写完发现，太复杂了，如果你按教程操作成功了，恭喜你，你拥有考入北大清华的智商！如果没有成功，那也别气馁，找个身边的程序员哥哥帮你30秒搞定。
 
-####其他
+#### 其他
 - 关闭ss + obfs
   - 关闭ss 客户端
     - 右键找到ss客户端菜单中关闭按钮
-  - 关闭obfs
+  - 关闭obfs，如果上述步骤执行成功，不关机可不理会obfs程序在后端运行：因其占用内存、电量等资源极少。如果重新开机了需重新启动obfs程序。
     - 命令行
       - ``` ps -ef | grep obfs-local  | grep -v grep```
       - <img src="../files/img/obfs/mac/mac.ss.obfs.ps.ef.png"  width="250" alt="mac ss obfs" />
