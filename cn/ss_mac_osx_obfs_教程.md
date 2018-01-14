@@ -78,6 +78,8 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
     - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
     - 修改服务器地址为```127.0.0.1```
     - <img src="../files/img/obfs/mac/mac.ss.host.local.png"  width="250" alt="mac ss host port" />
+    - 确认保存
+    - <img src="../files/img/obfs/mac/mac.ss.host.ok.png"  width="250" alt="mac save config" />
   - 至此已经将ss客户端流量转发到obfs，连通了ss + obfs，启动ss客户端即可畅游外网了
   - 右键打开ss客户端菜单，启动ss客户端
     - <img src="../files/img/obfs/mac/mac.ss.turn.on.png"  width="250" alt="mac turn on ss" />
