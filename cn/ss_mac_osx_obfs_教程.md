@@ -76,7 +76,7 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
 - 重定向ss流量，并启动ss客户端
   - 右键打开ss客户端菜单->'服务器配置...'/ 'Server Preferences...' -> 服务器配置信息如截图
     - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
-    - 修改服务器地址为```127.0.0.1```，端口为```8388```
+    - **找到之前扫码的那个服务器配置**，（敲黑板：是上面扫码添加过的服务器配置！）修改服务器地址为```127.0.0.1```，端口为```8388```，其他不变
       - <img src="../files/img/obfs/mac/mac.ss.host.local.png"  width="250" alt="mac ss host port" />
     - 确认保存
       - <img src="../files/img/obfs/mac/mac.ss.host.ok.png"  width="250" alt="mac save config" />
