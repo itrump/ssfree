@@ -44,8 +44,9 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
     - 输入以下命令，并按'回车/Enter'
       - 输入以下命令安装homebrew（部分用户无法访问git内容，下面的命令会在过程中卡住不动，请换个运营商网络重试。后续将建个国内镜像解决此问题）
       - ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-      - 命令执行过程中，会出现一句提示是否继续，按'回车/Enter'确认继续。执行结果输出如下图
+      - 命令执行过程中，会出现一句提示是否继续```Press RETURN to continue or any other key to abort```，按'回车/Enter'确认继续。执行结果输出如下图
         - <img src="../files/img/obfs/mac/mac.install.homebrew.png"  width="250" alt="mac install homebrew" />
+        - 过程中提示```Password:```，输入密码即可。
       - 输入以下命令确认安装成功
       - ```brew help```
       - 会输出homebrew的帮助信息
