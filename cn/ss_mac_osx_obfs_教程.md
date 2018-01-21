@@ -15,6 +15,8 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
 
  - 教程中是客户端英文版，如果打开客户端是中文版，找到对应的菜单、按钮操作即可。
 
+ - 教程中涉及的命令行，请按原样复制到命令行终端，以免手动敲错！
+
 #### 手把手开始操作
 - 安装ss客户端，如果已经安装过的可直接跳过。
   - mac ss客户端下载
@@ -32,14 +34,30 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
     - <img src="../files/img/obfs/mac/mac.ss.server.info.04.png"  width="250" alt="mac ss config info" />
   - ok，至此已经把账号信息添加好了50%。
 
-- 下载mac obfs客户端
-  - **右键点击**下载链接：[mac obfs client下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/obfs-local)
-    - 在弹出的菜单中选择『文件另存为...』/ 'Save File as...'，弹出保存文件界面，
-      - <img src="../files/img/obfs/mac/mac.download.obfs.png"  width="250" alt="mac obfs download" />
-    - 再按'command + shift + g'，弹出一个新的输入目录的对话框，输入'~'，即在输入法为英文时按'shift + *`*'，亦即shift + 数字1左边的键。
-      - <img src="../files/img/obfs/mac/mac.download.obfs.change.dir.png"  width="250" alt="mac download change dir" />
-    - 确认下载保存。
-  - 说明：以上右键点击另存为目的是为了避免部分小白用户下载后找不到文件路径。
+- 安装mac obfs客户端
+  - 打开mac命令行（小白听到命令行也别怕，这玩意隔壁老王家5岁小孩教了一遍也会玩了）
+    - 按F4，跳出mac面板，找到『其他』图标
+      - <img src="../files/img/obfs/mac/mac.f4.others.png"  width="250" alt="mac f4 others" />
+    - 找到terminal图标，并点击打开，即打开了命令行
+      - <img src="../files/img/obfs/mac/mac.f4.term.nal.png"  width="250" alt="mac f4 terminal" />
+  - 安装homebrew
+    - 输入以下命令，并按'回车/Enter'
+      - 输入以下命令安装homebrew（部分用户无法访问git内容，下面的命令会在过程中卡住不动，请换个运营商网络重试。后续将建个国内镜像解决此问题）
+      - ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+      - 命令执行过程中，会出现一句提示是否继续，按'回车/Enter'确认继续。执行结果输出如下图
+        - <img src="../files/img/obfs/mac/mac.install.homebrew.png"  width="250" alt="mac install homebrew" />
+      - 输入以下命令确认安装成功
+      - ```brew help```
+      - 会输出homebrew的帮助信息
+        - <img src="../files/img/obfs/mac/mac.homebrew_help.png"  width="250" alt="mac install homebrew" />
+  - 用homebrew安装simple-obfs插件
+    - 输入以下命令，并按'回车/Enter'
+      - ```brew install simple-obfs```
+      - 安装过程是自动的，会输出一些下载、源地址等信息，等待自动安装完成即可。
+      - ```obfs-local```
+      - 安装完后，输入上述命令，屏幕会输出obfs工具帮助提示信息如下，即表示obfs命令行客户端工具下载安装完成
+        - <img src="../files/img/obfs/mac/mac.term.obfs.png"  width="250" alt="mac obfs message" />
+    - 如果上面的命令行提示出错，或命令没反应，请回到上一步检查之前的homebrew工具、simple-obfs是否安装成功！
 
 - 启动obfs程序（每个命令按Enter前，请再次确认是不是准确无误！）
   - 打开mac命令行（小白听到命令行也别怕，这玩意隔壁老王家5岁小孩教了一遍也会玩了）
@@ -47,20 +65,10 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
       - <img src="../files/img/obfs/mac/mac.f4.others.png"  width="250" alt="mac f4 others" />
     - 找到terminal图标，并点击打开，即打开了命令行
       - <img src="../files/img/obfs/mac/mac.f4.term.nal.png"  width="250" alt="mac f4 terminal" />
-    - 按步骤输入以下命令，并按'回车/Enter'
-      - ```cd```
-        - 执行结果：无输出
-        - <img src="../files/img/obfs/mac/mac.term.cd.png"  width="250" alt="mac terminal cd" />
-      - ```chmod +x ./obfs-local```
-        - 执行结果：无输出
-      - ```./obfs-local```
-        - 执行结果：输出obfs工具帮助信息
-        - <img src="../files/img/obfs/mac/mac.term.obfs.png"  width="250" alt="mac obfs message" />
-    - 如果上面的命令行出错，或命令没反应，请回到上一步检查之前obfs客户端下载是否有误
     - 启动obfs程序，将ss流量重定向到obfs
       - 复制下面的命令行模板
       - ```./obfs-local -s SERVER_HOST -b 127.0.0.1 -p SERVER_PORT -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
-      - 上面这条命令有点长，而且有两处```SERVER_HOST``` 和```SERVER_PORT```需要替换。先复制下来，粘贴到命令行，**先不用敲回车执行**。
+      - 上面这条命令有点长，而且有两处```SERVER_HOST``` 和```SERVER_PORT```需要替换。先复制下来，粘贴到命令行，**先不用敲回车执行**，万一不小心已经回车了，请参考文后的「关闭obfs」，先关闭再启动obfs。
       - 找到上面步骤中ss客户端已经扫码的服务器配置，获取```SERVER_HOST``` 和```SERVER_PORT```，
         - 右键打开ss客户端菜单->'服务器配置...'/ 'Server Preferences...' -> 服务器配置信息如截图
         - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
