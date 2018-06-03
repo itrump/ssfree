@@ -68,14 +68,14 @@ Mac OS x的shadowsocks obfs混淆教程有点trick，已更新初版！
       - <img src="../files/img/obfs/mac/mac.f4.term.nal.png"  width="250" alt="mac f4 terminal" />
     - 启动obfs程序，将ss流量重定向到obfs
       - 复制下面的命令行模板
-      - ```./obfs-local -s SERVER_HOST -b 127.0.0.1 -p SERVER_PORT -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
+      - ```obfs-local -s SERVER_HOST -b 127.0.0.1 -p SERVER_PORT -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
       - 上面这条命令有点长，而且有两处```SERVER_HOST``` 和```SERVER_PORT```需要替换。先复制下来，粘贴到命令行，**先不用敲回车执行**，万一不小心已经回车了，请参考文后的「关闭obfs」，先关闭再启动obfs。
       - 找到上面步骤中ss客户端已经扫码的服务器配置，获取```SERVER_HOST``` 和```SERVER_PORT```，
         - 右键打开ss客户端菜单->'服务器配置...'/ 'Server Preferences...' -> 服务器配置信息如截图
         - <img src="../files/img/obfs/mac/mac.ss.host.port.png"  width="250" alt="mac ss host port" />
         - 将```SERVER_HOST```替换为图中 1 的服务器地址，```SERVER_PORT```替换为图中 2 的端口
           - 例如图中服务器地址为 abc.def.com 端口为 10088，则替换后的最终命令为：
-          - ```./obfs-local -s abc.def.com -b 127.0.0.1 -p 10088 -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
+          - ```obfs-local -s abc.def.com -b 127.0.0.1 -p 10088 -l 8388 --obfs http --obfs-host www.bing.com -f /tmp/obfs-local.8388.pid```
         - 确认替换无误后，按下 '回车 / Enter' 执行，正常情况下不会输出任何信息。
      - 确认 obfs 程序已启动
         - 运行命令确认
