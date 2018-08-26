@@ -5,21 +5,20 @@
 
 
 ### Windows傻瓜式配置xbfs
-主要分为以下步骤：
+主要分为以下步骤，预计将花费30秒-3分钟。
 
   - 下载合适的客户端版本并解压
   - 扫码添加服务器xbfs账号
   - 畅游连上国际网络
 
-**预计以下过程将花费30秒-3分钟**
 
 - windows 客户端下载（需安装.net2.0或.net4.0环境）
 	* 以下为.net2.0 rar/zip下载包。适用于windows 7/8
-    	- [ssr dotnet2.0 zip下载](../../files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.zip)
-   		- [ssr donet2.0 rar下载](../../files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.rar)
+    	- [ssr dotnet2.0 zip下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.zip)
+   		- [ssr donet2.0 rar下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.rar)
   	* .net4.0 的rar/zip下载包。适用于windows 8/10
-    	- [ssr donet4.0 zip下载](../../files/obfs_client/ssr_dotnet4.0_obfs_4.7.5_release.zip)
-    	- [ssr donet4.0 rar下载](../../files/obfs_client/ssr_dotnet4.0_obfs_4.7.5_release.rar)
+    	- [ssr donet4.0 zip下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet4.0_obfs_4.7.5_release.zip)
+    	- [ssr donet4.0 rar下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet4.0_obfs_4.7.5_release.rar)
 - 下载后解压、启动客户端
 	* 解压到文件夹后，看到如下截图中的多个文件。双击打开红色纸飞机图标`SSR`（`ShadowsocksR`）可执行文件
 	* <img src="../img/obfs/new_obfs_windows_ssr_01.png"  width="250" alt="ssr解压文件截图" />
