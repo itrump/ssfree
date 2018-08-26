@@ -13,7 +13,7 @@
 
 **详细步骤如下**
 
-- windows 客户端下载（需安装.net2.0或.net4.0环境）
+- windows 客户端下载（需安装.net2.0或.net4.0环境，**建议使用dotnet4.0版本**）
 	* 以下为.net2.0 rar/zip下载包。适用于windows 7/8
     	- [ssr dotnet2.0 zip下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.zip)
    		- [ssr donet2.0 rar下载](https://github.com/itrump/ssfree/raw/master/files/obfs_client/ssr_dotnet2.0_obfs_4.7.5_release.rar)
