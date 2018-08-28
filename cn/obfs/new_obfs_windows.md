@@ -31,7 +31,7 @@
 	
 	* 准备二维码。将网络流量商提供的二维码打开放在屏幕正中间。
 	* <img src="../img/obfs/new_obfs_windows_ssr_06.png"  width="150" width="150" alt="" />
-	* 打开`SSR`客户端后，状态栏中出现一个纸飞机图标，右击该图标，弹出一个菜单栏。
+	* 先关闭所有其他的代理客户端！再打开`SSR`客户端，状态栏中出现一个纸飞机图标，右击该图标，弹出一个菜单栏。
 	* <img src="../img/obfs/new_obfs_windows_ssr_04.png"  width="150" width="150" alt="" />
 	* <img src="../img/obfs/new_obfs_windows_ssr_05.png"  width="150" width="150" alt="" />
 	* 点击『二维码扫描』
