@@ -7,6 +7,12 @@ Iphone / ipad 的obfs配置类似，下面以iphone为例。傻瓜式教程，�
 ## 安装shadowsocket
 国区已下架，现在没找到好的方法安装。有好方法请私telegram我。所以只针对安装好了iphone/ipad的小火箭的朋友进行下一步了。
 
+ > 从[pp助手上](https://www.25pp.com/ios/detail_1923429/)下载
+ 
+ 打开上面链接后，右侧『下载未越狱版』和『下载越狱版』，需要iphone连接电脑。具体可以详细咨询用过pp助手的朋友。
+ 
+ <img src="./img/obfs/ss_ios_obfs05.png"  width="250" alt="ios扫码后账号详情" />
+
 ## 添加ss账号并配置obfs混淆
 
 - 扫码添加配置
