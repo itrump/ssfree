@@ -4,6 +4,10 @@
 # Yitianjian ss new site list
 Yitianjian site is often dns poluted and can not be visited, so the site migrates frequently.
 Here is the recently available site list of Yitianjian ss. If anyone find others please tell me.
+### Direct visit without proxy on. Crawed from doub.io
+ - [visit](https://a.hidexx.com)
+ - [visit](https://b.hidexx.com)
+ - [visit](https://c.hidexx.com)
 ### The following links can be visited directly without proxy on.
 - [visit](https://a.aiguobit.com)
 - [visit](https://b.aiguobit.com)

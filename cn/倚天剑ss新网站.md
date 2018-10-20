@@ -5,6 +5,10 @@
 
 ### 本页面会定期更新，建议收藏此页面
 爱国网站经常容易被dns污染、投毒导致网站打不开，所以会经常迁移。
+### 暂时无需开全局，全球访问！逗逼抓取
+ - [直接访问](https://a.hidexx.com)
+ - [直接访问](https://b.hidexx.com)
+ - [直接访问](https://c.hidexx.com)
 ### 暂时无需开全局，全球访问！
 - [直接访问](https://a.aiguobit.com)
 - [直接访问](https://b.aiguobit.com)
