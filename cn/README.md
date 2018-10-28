@@ -18,6 +18,11 @@
 - [ss obfs android教程](./ss_android_obfs_教程.md)
 - [ss obfs iphone/ipad教程](./ss_iphone_ipad_obfs_教程.md)
 - [ss obfs mac教程](./ss_mac_osx_obfs_教程.md)
+- [ssr/ss 教程索引](./ssr_ss_tutorial_教程.md)
+- [ssr/ss windows教程](./ssr_ss_tutorial_windows教程.md)
+- [ssr/ss android教程](./ssr_ss_tutorial_android教程.md)
+- [ssr/ss mac教程](./ssr_ss_tutorial_mac教程.md)
+- [ssr/ss iphone/ipad教程](./ssr_ss_tutorial_ios教程.md)
 
 ## 万能解决方案
 建议：
