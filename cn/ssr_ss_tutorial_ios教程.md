@@ -12,7 +12,7 @@
  <img src="./img/obfs/ss_ios_obfs05.png"  width="250" alt="ios扫码后账号详情" />
  
  
- ##### Iphone / Ipad 如何配置使用ssr/ss
+##### Iphone / Ipad 如何配置使用ssr/ss
  
   - 以shadowrocket小火箭为例，操作非常简单。
   - 将自建的或者账号商提供的ssr/ss二维码展示在电脑屏幕中央，或者保存在Iphone / Ipad相册。
@@ -22,9 +22,9 @@
  
  
  
- ##### Todo
- [ ] 配图说明
- [ ] 增加本地下载
+##### Todo
+ - [ ] 配图说明
+ - [ ] 增加本地下载
  
- ##### 其他客户端教程
+##### 其他客户端教程
  - [ssr/ss教程索引](./ssr_ss_tutorial_教程.md)
