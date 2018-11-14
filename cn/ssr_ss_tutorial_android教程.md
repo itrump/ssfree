@@ -8,7 +8,7 @@
 
 
 ##### Android 如何配置使用ssr/ss
-  - 下载安装[二维码扫描工具 Barcode Scanner](https://github.com/zxing/zxing/releases/download/BS-4.7.8/BarcodeScanner-4.7.8.apk)，并安装好。
+  - 下载安装[二维码扫描工具 Barcode Scanner](https://github.com/zxing/zxing/releases/download/BS-4.7.8/BarcodeScanner-4.7.8.apk)。
   - 下载好[SSR客户端](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases/download/3.4.0.8/shadowsocksr-release.apk)客户端后，点击安装并打开ssr。
   - 打开界面后，看到粉色主界面。点开左上方的「ShadowsocksR」，到一个新的添加配置的界面。
   - 在电脑上将自建或账号商提供的ssr/ss二维码展示在屏幕中央，并且确认没有被其他窗口遮拦。
