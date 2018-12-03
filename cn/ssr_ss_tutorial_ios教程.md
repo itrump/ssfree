@@ -3,7 +3,7 @@
 
 
 ##### 客户端下载
-建议用免费的方法，下文安装过程中的小问题可自行百度或者提github issue.
+建议用免费下载安装的方法，下文安装过程中的小白问题可自行百度或者提github issue.
 
  - 免费下载安装
    > 支持所有iphone，包括越狱及未越狱。
@@ -14,6 +14,12 @@
    - 至此安装客户端完成。
 
    > 提示：此方法不仅可以用于免费下载安装shadowrocket，也可以下载安装wingy等其他优秀的网络代理工具。也可以免费下载安装其他热门的appstore的应用！
+ 
+ - 用testflight安装crossxx
+
+   要求iphone/ipad安装了最新的testflight,然后点击这个[测试链接](https://testflight.apple.com/join/pGQJhqDy)进行安装测试版本的crossxx（提供简洁的操作界面，支持添加ssr/ss代理）。
+   
+   在iphone/ipad浏览器中点开上面的testlflight测试链接后，选择页面中的『开始测试』即可免费安装crossxx。此代理工具添加配置和使用方法和shadowrocket类似，但界面相对简洁（`嘴快不留情也可以说有点丑陋^_^`）
  
  - 付费下载安装
  
