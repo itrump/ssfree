@@ -17,9 +17,10 @@
  
  - 用testflight安装crossxx
 
-   要求iphone/ipad安装了最新的testflight,然后点击这个[测试链接](https://testflight.apple.com/join/pGQJhqDy)进行安装测试版本的crossxx（提供简洁的操作界面，支持添加ssr/ss代理）。
+   要求iphone/ipad安装了最新版本的testflight,然后点击这个[测试链接](https://testflight.apple.com/join/pGQJhqDy)进行安装测试版本的crossxx（提供简洁的操作界面，支持添加ssr/ss代理）。
    
-   在iphone/ipad浏览器中点开上面的testlflight测试链接后，选择页面中的『开始测试』即可免费安装crossxx。此代理工具添加配置和使用方法和shadowrocket类似，但界面相对简洁（`嘴快不留情也可以说有点丑陋^_^`）
+   在iphone/ipad浏览器中点开上面的testlflight测试链接后，选择页面中的『开始测试』即可免费安装crossxx。此代理工具添加配置和使用方法和shadowrocket类似，
+   但界面相对简洁（`心直口快不留情也可以说有点丑陋^_^`）
  
  - 付费下载安装
  
