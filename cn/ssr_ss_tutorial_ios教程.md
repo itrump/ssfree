@@ -3,7 +3,7 @@
 
 
 ##### 客户端下载
-建议通过testflight安装crossxx的方法实现在 ipad / iphone上安装客户端配置好服务器，穿越GFW畅游国外网站.
+下面列出3种方法安装iphone客户端，建议通过testflight安装crossxx的方法实现在 ipad / iphone上安装客户端配置好服务器，穿越GFW畅游国外网站.
  
  - 用testflight安装crossxx
 
