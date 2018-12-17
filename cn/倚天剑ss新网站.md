@@ -5,10 +5,12 @@
 
 ### 本页面会定期更新，建议收藏此页面
 爱国网站经常容易被dns污染、投毒导致网站打不开，所以会经常迁移。
-### 暂时无需开全局，全球访问！逗逼抓取
- - [直接访问](https://a.hidexx.com)
- - [直接访问](https://b.hidexx.com)
- - [直接访问](https://c.hidexx.com)
+### 已被攻击，官方说正在恢复。用户信息已被保护。
+ - [直接访问](https://a.hidexx.com)，暂停使用，已被攻击！
+ - [直接访问](https://b.hidexx.com)，暂停使用，已被攻击！
+ - [直接访问](https://c.hidexx.com)，暂停使用，已被攻击！
+
+ 
 ### 暂时无需开全局，全球访问！
 - [直接访问](https://a.aiguobit.com)
 - [直接访问](https://b.aiguobit.com)
@@ -16,6 +18,7 @@
 - [直接访问](https://d.aiguobit.com)
 - [直接访问](https://e.aiguobit.com)
 - [直接访问](https://f.aiguobit.com)
+
 ### 大陆地区需开全局访问！
 > 请开全局代理访问以下网站！
 - [开全局代理可访问](https://a.yitianjianss.com)
