@@ -14,6 +14,7 @@
 - 若有更高需求，请[购买专用ss账号](./倚天剑ss新网站.md)
 
 ### 免费ss账号
-- ss line sgp, free trial, 已失效
+- ss line sgp, free trial, 已失效，
+- 因免费账号被滥用，不再有效。您可[购买专用ss账号](./倚天剑ss新网站.md)
 
 - [联系我们](./联系我们.md)
