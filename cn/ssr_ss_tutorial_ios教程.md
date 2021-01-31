@@ -5,12 +5,12 @@
 ##### 客户端下载
 下面列出3种方法安装iphone客户端，建议通过testflight安装crossxx的方法实现在 ipad / iphone上安装客户端配置好服务器，穿越GFW畅游国外网站.
  
- - 用testflight安装crossxx
+ - 用testflight安装crossxx(已过期)
 
-   要求iphone/ipad安装了最新版本的testflight,然后点击这个[测试链接](https://testflight.apple.com/join/pGQJhqDy)进行安装测试版本的crossxx（提供简洁的操作界面，支持添加ssr/ss代理）。
+   ~~要求iphone/ipad安装了最新版本的testflight,然后点击这个[测试链接](https://testflight.apple.com/join/pGQJhqDy)进行安装测试版本的crossxx（提供简洁的操作界面，支持添加ssr/ss代理）。~~
    
-   在iphone/ipad浏览器中点开上面的testlflight测试链接后，选择页面中的『开始测试』即可免费安装crossxx。此代理工具添加配置和使用方法和shadowrocket类似，
-   但界面相对简洁（`心直口快不留情也可以说有点丑陋^_^`）
+   ~~在iphone/ipad浏览器中点开上面的testlflight测试链接后，选择页面中的『开始测试』即可免费安装crossxx。此代理工具添加配置和使用方法和shadowrocket类似，~~
+   ~~但界面相对简洁（`心直口快不留情也可以说有点丑陋^_^`）~~
 
  - 免费下载安装
    > 支持所有iphone，包括越狱及未越狱。
