@@ -7,7 +7,7 @@
  - [github ssr windows 4.7.0.1-win.7z](https://github.com/shadowsocksr-rm/shadowsocksr-csharp/releases/download/4.7.0.1/ShadowsocksR-4.7.0.1-win.7z)
 
  
- 
+
 ##### windows如何配置使用ssr/ss
   - 下载好客户端后，解压文件到文件夹。可以看到两个粉红色的exe文件图标，一个是`ShadowsocksR-dotnet2.0.exe` 用于稍低版的windows系统如win7，另一个是`ShadowsocksR-dotnet4.0.exe`用于稍高版的windows系统如win8/win10
   - 打开其中一个粉色图标的exe可执行文件，比如双击打开`ShadowsocksR-dotnet2.0.exe`，过程中出现网络提示或者信任提示，点「信任」或「确认」在任务栏中出现小飞机图标。
@@ -18,7 +18,7 @@
   - 打开google.com看看，是不是连接外面的世界了。😄
 
   
-  
+
 ##### 番外
   - 菜单栏中「系统代理模式」中：
 
@@ -26,12 +26,12 @@
     - 「全局模式」所有网站都走代理，没有访问不了的网站（除非站点挂了），但大陆网站会变慢。
 
   
+
  
- 
- 
+
 ##### Todo
  - [ ] 配图说明
  - [ ] 增加本地下载
- 
+
  ##### 其他客户端教程
  - [ssr/ss教程索引](./ssr_ss_tutorial_教程.md)
