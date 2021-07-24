@@ -25,6 +25,7 @@
 - [ssr/ss iphone/ipad教程](./ssr_ss_tutorial_ios教程.md)
 - [trojan free server accounts 免费服务器账号](./trojan_free.md)
 - [trojan windows tutorial教程](./trojan_windows_tutorial.md)
+- [trojan mac tutorial教程](./trojan_mac_tutorial.md)
 
 ## 万能解决方案
 建议：
