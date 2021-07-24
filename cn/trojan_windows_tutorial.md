@@ -2,6 +2,10 @@
 
 > 说明：下载trojan-qt5 windows客户端后解压，双击打开trojan-qt5.exe扫码或手动填入服务器地址、端口、密码连接即可使用
 
+注意事项：
+
+- 请关闭并退出其他代理软件，以免干扰，导致配置失败、使用异常
+
 ##### 客户端下载
  - [github trojan-qt5 windows 客户端](https://github.com/McDull-GitHub/trojan-qt5/releases/download/v1.4/Trojan-Qt5-Windows.zip)
  - [备用线路trojan-qt5 windows客户端](http://www.trojanfree.com/files/client/troj/Trojan-Qt5-Windows.zip)
