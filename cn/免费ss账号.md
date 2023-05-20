@@ -10,6 +10,12 @@
 ### 免费SSR服务器
 - [Free SSR proxy](https://proxy.trojanfree.top)
 
+### 免费trojan服务器
+
+- [Free trojan proxy](https://www.trojanfree.com)
+
+
+
 ### 免费账号使用须知：
 - 账号信息随时改变，测试时可用，一段时间后可能失效
 - 不稳定，用一段时间会自动掉线

@@ -8,3 +8,4 @@ server ip | server port | encrypt method | pasword
 ## TODO:
 - [ ] provide qrcode for each ss account
 - [ ] provide more lines
+
